@@ -67,7 +67,7 @@ public class TasksTest {
 	}
 	
 	@Test
-	public void deveSalvarTarefaComDataPassada() {
+	public void naodeveSalvarTarefaComDataPassada() {
 		WebDriver driver = acessarAplicacao();
 		try {
 			driver.findElement(By.id("addTodo")).click();
